@@ -27,13 +27,42 @@ export const categories = [
         id: 1,
         img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
         title: "Title",
-    },{
+    },
+    {
         id: 2,
         img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
         title: "Title",
-    },{
+    },
+    {
         id: 3,
         img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
         title: "Title",
+    }
+];
+
+export const popularProducts = [
+    {
+        id: 1,
+        img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
     },
+    {
+        id: 2,
+        img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
+    },
+    {
+        id: 3,
+        img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
+    },
+    {
+        id: 4,
+        img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
+    },
+    {
+        id: 5,
+        img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
+    },
+    {
+        id: 6,
+        img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpg",
+    }
 ];
