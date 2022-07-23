@@ -6,12 +6,15 @@ import NavBar from "../components/NavBar";
 import Newsletter from "../components/Newsletter";
 import Product from "../components/Product";
 import Products from "../components/Products";
+import { mobile } from "../responsive";
+
 
 const Container = styled.div `
 
 `
 const Filter = styled.div `
-
+    margin: 20px;
+    ${mobile({width: '0px 20px', display: "flex", flexDirection: "column"})}
 `
 const FilterContainer = styled.div `
     display: flex;
@@ -24,10 +27,13 @@ const FilterText = styled.span`
     margin-right: 20px;
     font-size: 20px;
     fontweight: 600;
+    ${mobile({marginRight: "0px"})}
 `
 const Select = styled.select`
-    padding:10px;
+    padding: 10px;
     margin-right: 20px;
+    ${mobile({margin: "10px 0px"})}
+
 `
 const Option = styled.option`
     

@@ -1,9 +1,11 @@
 import { Phone, Facebook, Home, Instagram, Mail, Pinterest, Twitter, Room } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
+import { mobile } from "../responsive";
 
 const Container = styled.div`
     display: flex;
+    ${mobile({flexDirection: 'column'})}
 `
 const Left = styled.div`
     flex: 1;
@@ -14,10 +16,12 @@ const Left = styled.div`
 const Right = styled.div`
     flex: 1;
     padding: 20px;
+    ${mobile({backgroundColor: 'lightgray'})}
 `
 const Center = styled.div`
     flex: 1;
     padding: 20px;
+    ${mobile({display: 'none'})}
 `
 const Logo = styled.h1`
 
